@@ -1,0 +1,529 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.nav {
+  background-color: #1d1d1f;
+  height: 40px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+.left {
+  display: flex;
+  gap: 40px;
+}
+.leftimage {
+  display: flex;
+}
+.right {
+  display: flex;
+  gap: 40px;
+}
+.rightimage {
+  display: flex;
+}
+.rightlastimage {
+  display: flex;
+}
+img {
+  height: 30px;
+}
+.menu {
+  display: none;
+}
+.forright {
+  display: flex;
+  gap: 40px;
+}
+.fullscreenelements {
+  display: none;
+}
+.iphoneimageone {
+  height: 530px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.para {
+  width: 600px;
+  height: 400px;
+  text-align: center;
+  overflow: hidden;
+
+  margin-top: 49px;
+}
+.iphone {
+  height: 100%;
+}
+span {
+  color: blue;
+}
+h1 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 30px;
+}
+.secondbigimg {
+  background-image: url(./photo-1609921205586-7e8a57516512.avif);
+  margin-top: 40px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.sechone {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 70px;
+}
+.sechtwo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 8px;
+}
+.firsththre {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 8px;
+  color: green;
+  margin-left: 40px;
+}
+.thirdbig {
+  background-image: url(./hero_apple_vision_pro_avail__ecthwv10twsy_largetall.jpg);
+  height: 600px;
+  margin-top: 30px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.disapple {
+  display: flex;
+  justify-content: center;
+}
+.parentapple {
+  text-align: center;
+
+  margin-top: 230px;
+}
+.apple {
+  height: 70px;
+}
+.honethree {
+  font-size: 70px;
+}
+.hthreethree {
+  margin-top: 10px;
+  font-size: 40px;
+}
+.colourblue {
+  color: blue;
+  margin-top: 10px;
+  font-size: 35px;
+}
+.fourmain {
+  margin-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+.watch {
+  height: 700px;
+  width: 700px;
+  overflow: hidden;
+}
+.righttwo {
+  height: 700px;
+  width: 700px;
+
+  overflow: hidden;
+}
+.watchone {
+  height: 100%;
+  width: 100%;
+}
+.rightwotwo {
+  height: 100%;
+  width: 100%;
+}
+.meinfive {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.ipaddiv {
+  height: 700px;
+  width: 700px;
+  overflow: hidden;
+
+  overflow: hidden;
+}
+.airpoddiv {
+  height: 700px;
+  width: 700px;
+
+  overflow: hidden;
+}
+.ipadimage {
+  width: 100%;
+  height: 100%;
+}
+.airpodimage {
+  width: 100%;
+  height: 100%;
+}
+.mainsix {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.cardiphone {
+  height: 700px;
+  width: 700px;
+  overflow: hidden;
+}
+.tradein {
+  height: 700px;
+  width: 700px;
+  overflow: hidden;
+}
+.picfour {
+  width: 100%;
+  height: 100%;
+}
+.picfive {
+  width: 100%;
+  height: 100%;
+}
+.sevenimage {
+  height: 500px;
+  justify-content: center;
+  display: flex;
+}
+.uns {
+  height: 100%;
+  width: 60%;
+  border-radius: 30px;
+}
+.uns:hover {
+  opacity: 0.5;
+}
+.maineight {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f7;
+  margin-top: 20px;
+}
+.paralong {
+  width: 1000px;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.658);
+}
+a {
+  text-decoration: none;
+}
+.forline {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f7;
+}
+.line {
+  border: 1px solid grey;
+  width: 1000px;
+  height: 1px;
+}
+.mainnine {
+  height: 700px;
+  background-color: #f5f5f7;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+h4 {
+  color: #1d1d1fcc;
+}
+.mainnine p {
+  color: rgba(0, 0, 0, 0.719);
+}
+.one {
+  width: 150px;
+  height: 660px;
+}
+.two {
+  width: 150px;
+  height: 660px;
+}
+.three {
+  width: 150px;
+  height: 660px;
+}
+.four {
+  width: 150px;
+  height: 660px;
+}
+.five {
+  width: 150px;
+  height: 660px;
+}
+.mobdrop {
+  display: none;
+}
+.mainten {
+  height: 30px;
+  background-color: #f5f5f7;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.footer {
+  height: 60px;
+  background-color: #f5f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  font-size: 20px;
+  color: #1d1d1f;
+}
+@media only screen and (max-width: 600px) {
+  /* body {
+    background-color: red;
+  } */
+  .nav {
+    justify-content: end;
+    justify-content: space-between;
+    position: relative;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+  }
+  .left {
+    display: none;
+  }
+  .right {
+    display: none;
+  }
+  .center {
+    display: none;
+  }
+  .menu {
+    display: block;
+    margin-top: 2px;
+    margin-right: 20px;
+    border: 2px solid white;
+    width: 70px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 3px;
+    font-weight: bold;
+  }
+  .fullscreen {
+    background-color: #1d1d1f;
+    top: -100%;
+    z-index: 99;
+    position: fixed;
+    transition: all ease 0.9s;
+    height: 100vh;
+    width: 100%;
+  }
+  .fullscreen:hover {
+    background-color: white;
+  }
+  .fullscreenelements {
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 60px;
+    display: block;
+  }
+  .fullscreenelements:hover {
+    color: black;
+  }
+  .leftimage {
+    transition: all ease 0.4s;
+  }
+  .rightimage {
+    transition: all ease 0.4s;
+  }
+  .rightlastimage {
+    transition: all ease 0.4 s;
+  }
+  .iphone {
+    display: none;
+  }
+  .iphoneformob {
+    height: 300px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .secondbigimg {
+    background-image: url(./photo-1609921205586-7e8a57516512.avif);
+    margin-top: 40px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+  }
+  .sechone {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 30px;
+  }
+  .sechtwo {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 3px;
+  }
+  .firsththre {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 8px;
+    color: green;
+    margin-left: 20px;
+  }
+  .thirdbig {
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 550px;
+  }
+  .apple {
+    height: 40px;
+  }
+  .honethree {
+    font-size: 40px;
+  }
+  .hthreethree {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .colourblue {
+    color: blue;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .fourmain {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .watch {
+    width: 350px;
+    height: 500px;
+  }
+  .righttwo {
+    width: 350px;
+    height: 500px;
+  }
+  .watchone {
+    border-radius: 20px;
+  }
+  .rightwotwo {
+    border-radius: 20px;
+  }
+  .meinfive {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ipaddiv {
+    width: 350px;
+    height: 500px;
+  }
+  .airpoddiv {
+    width: 350px;
+    height: 500px;
+  }
+  .ipadimage {
+    border-radius: 20px;
+  }
+  .airpodimage {
+    border-radius: 20px;
+  }
+  .mainsix {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cardiphone {
+    width: 350px;
+    height: 500px;
+  }
+  .tradein {
+    width: 350px;
+    height: 500px;
+  }
+  .picfour {
+    border-radius: 20px;
+  }
+  .picfive {
+    border-radius: 20px;
+  }
+  .uns {
+    width: 350px;
+  }
+
+  .paralong {
+    margin-left: 15px;
+    width: 300px;
+  }
+  .line {
+    width: 300px;
+  }
+  .one {
+    display: none;
+  }
+  .two {
+    display: none;
+  }
+  .three {
+    display: none;
+  }
+  .four {
+    display: none;
+  }
+  .five {
+    display: none;
+  }
+  .mainnine {
+    justify-content: center;
+  }
+  select {
+    height: 50px;
+    width: 250px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: block;
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+  }
+  .mobdrop {
+    display: block;
+  }
+  .mainten {
+    font-size: 15px;
+  }
+  .flex {
+    width: 300px;
+  }
+  .footer {
+    font-size: 10px;
+    font-weight: bold;
+    gap: 10px;
+  }
+}
